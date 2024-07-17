@@ -136,6 +136,9 @@ int main()
                     cin >> soTang;
                 }
                 initStack(sA);
+                initStack(sB);
+                initStack(sC);
+                dem = 0;
                 for(int i=soTang; i > 0; i--)
                 {
                     Node* p = initNode(i);
